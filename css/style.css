@@ -1,5 +1,6 @@
 @import "nav.css";
 @import "hero.css";
+@import "about.css";
 
 * {
     margin: 0;
@@ -17,6 +18,9 @@ body {
     background-color: var(--bg);
     color: var(--text);
 }
+html {
+    scroll-behavior: smooth;
+}
 
 @media (max-width: 880px) {
     nav .left {
@@ -33,4 +37,8 @@ body {
     nav button {
         display: none;
     }
+    .hero .pic {
+        margin-left: 20px;
+    };
+
 }

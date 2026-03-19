@@ -6,6 +6,10 @@ nav{
     align-items: center;
     position: sticky;
     transition: all .3s ease;
+/* 
+    position: sticky;   
+    top: 0;     
+    z-index: 1000; */
 }
 nav .left {
     display: flex;
