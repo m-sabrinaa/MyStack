@@ -1,0 +1,27 @@
+.hero {
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    height: 530px;
+    gap: 2rem;
+}
+.hero .pic {
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    border-radius: 4%;
+    background-color: rgb(212, 194, 194);
+
+}
+.pic img {
+    vertical-align: bottom;
+}
+.hero .name h1 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.name p{
+    font-size: 1.2rem;
+}

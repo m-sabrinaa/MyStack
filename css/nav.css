@@ -5,6 +5,7 @@ nav{
     padding: clamp(0.5rem, 2vw, 1rem) clamp(1rem, 6vw, 5rem);
     align-items: center;
     position: sticky;
+    transition: all .3s ease;
 }
 nav .left {
     display: flex;
