@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "hero.css";
 @import "about.css";
+@import "skills.css";
 
 * {
     margin: 0;
@@ -10,9 +11,10 @@
 }
 :root {
     --bg: #BDA6CE;
-    --text: #301934;
+    --text3: #301934;
     --bg2: #B2AC88;
     --text2: #222B13;
+    --text: #97575F;
 }
 body {
     background-color: var(--bg);

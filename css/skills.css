@@ -1,0 +1,50 @@
+:root {
+    --bar: #3DCFD3;
+}
+
+.skill {
+    border: 2px solid black;
+    color: black;
+    height: 680px;
+}
+
+.skill .container {
+    border: 2px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skill .left {
+    border: 2px solid black;
+    width: 40%;
+    
+}
+
+.skill .left .up {
+    border: 2px solid black;
+}
+
+.skill .right .up {
+    border: 2px solid black;
+}
+
+.skill .right {
+    border: 2px solid black;
+    width: 40%;
+}
+
+.skill .top {
+    border: 2px solid black;
+}
+
+.skill .bottom {
+    border: 2px solid black;
+}
+
+.skill .container .side {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}

@@ -5,6 +5,7 @@
   align-items: center;
   height: 680px;
   transition: all .3s ease;
+  background-color: var(--text);
 }
 .about-me {
   /* border: 2px solid black; */
@@ -12,16 +13,18 @@
   font-size: clamp(3rem, 5vw, 4rem);
   text-align: right;
   margin-right: 3rem;
+  color: var(--bg);
 }
 .details {
   /* border: 2px solid black; */
   width: 40%;
+  color: var(--bg);
 }
 
 .about button {
   padding: 0.6rem 1.2rem;
-  background-color: var(--text);
-  color: var(--bg);
+  background-color: var(--bg);
+  color: var(--text);
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   border: 2px solid transparent;
@@ -29,35 +32,35 @@
   font-size: 1rem;
 }
 .about button:hover {
-  border: 2px solid var(--text);
-  background-color: var(--bg);
-  color: var(--text);
+  border: 2px solid var(--bg);
+  background-color: var(--text);
+  color: var(--bg);
 }
-.side {
+.about .side {
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   margin: auto;
-  color: var(--text);
+  color: var(--bg);
 }
 
 @media (max-width: 880px) {
     .about {
         display: block;
         gap: 30px;
-        margin-left: 5rem;
+        padding-left: 5rem;
         
     }
     .about-me {
         width: 80%;
-        font-size: 3rem;
+        font-size: clamp(2rem, 5vw, 3rem);
         text-align: left;
     }
     .details {
         width: 80%;
         text-align: left;
     }
-    .side {
+    .about .side {
         display: none;
     }
 }
