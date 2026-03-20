@@ -1,50 +1,146 @@
 :root {
-    --bar: #3DCFD3;
+  --bar: #3dcfd3;
 }
 
 .skill {
-    border: 2px solid black;
-    color: black;
-    height: 680px;
+  /* border: 2px solid black; */
+  color: var(--bg);
+  height: 680px;
+}
+
+.skill h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: lighter;
+  color: var(--text);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .skill .container {
-    border: 2px solid black;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  /* border: 2px solid black; */
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
 }
 
 .skill .left {
-    border: 2px solid black;
-    width: 40%;
-    
+  /* border: 2px solid black; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
 }
 
 .skill .left .up {
-    border: 2px solid black;
+  /* border: 2px solid black; */
+  padding: 15px;
+  border: 2px solid var(--text);
+  transition: all 0.3s ease;
+  background-color: var(--text);
 }
 
-.skill .right .up {
-    border: 2px solid black;
+.skill .left .up:hover {
+  transform: scale(1.05);
+}
+
+.skill .left .down {
+  /* border: 2px solid black; */
+  padding: 15px;
+  border: 2px solid var(--text);
+  transition: all 0.3s ease;
+  background-color: var(--text);
+}
+
+.skill .left .down:hover {
+  transform: scale(1.05);
+}
+
+.skill .left .down-item {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.skill .down-item .box {
+  /* border: 2px solid black; */
+  padding: 0.2rem 1rem;
+  font-size: 0.85rem;
+  background-color: var(--bg);
+  color: var(--text);
+  border-radius: 2px;
+  margin-top: 5px;
 }
 
 .skill .right {
-    border: 2px solid black;
-    width: 40%;
-}
-
-.skill .top {
-    border: 2px solid black;
-}
-
-.skill .bottom {
-    border: 2px solid black;
+  /* border: 2px solid black; */
+  width: 40%;
 }
 
 .skill .container .side {
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* RIGHT: BAR SECTION */
+
+.right {
+  /* border: 2px solid black; */
+  color: var(--text);
+}
+.right .line {
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+/* #BDA6CE */
+.right .line .bar {
+  width: 85%;
+  background-color: white;
+  margin-left: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.right .line .cprogress {
+  background-color: var(--text);
+  width: 85%;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.right .line .javaprogress {
+  background-color: var(--text);
+  width: 50%;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.right .line .pyprogress {
+  background-color: var(--text);
+  width: 40%;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.right .line .htmlprogress {
+  background-color: var(--text);
+  width: 90%;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.right .line .cssprogress {
+  background-color: var(--text);
+  width: 60%;
+  height: 10px;
+  border-radius: 10px;
 }

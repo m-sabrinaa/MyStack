@@ -11,10 +11,10 @@
 }
 :root {
     --bg: #BDA6CE;
-    --text3: #301934;
+    --text: #301934;
     --bg2: #B2AC88;
     --text2: #222B13;
-    --text: #97575F;
+    --text2: #97575F;
 }
 body {
     background-color: var(--bg);
