@@ -3,6 +3,7 @@
 @import "about.css";
 @import "skills.css";
 @import "project.css";
+@import "contact.css";
 
 * {
     margin: 0;

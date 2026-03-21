@@ -59,7 +59,7 @@
         width: 100%;
         font-size: clamp(2rem, 5vw, 3rem);
         text-align: left;
-        margin-top: 2rem;
+        padding-top: 3rem;
     }
     .details {
         
