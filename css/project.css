@@ -19,7 +19,7 @@
 }
 
 .project .down .left {
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     display: flex;
 }
