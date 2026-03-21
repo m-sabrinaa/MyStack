@@ -1,12 +1,14 @@
 .about {
-  /* border: 2px solid black; */
+  border: 2px solid black;
   display: flex;
+  width: auto;
   justify-content: center;
   align-items: center;
-  height: 680px;
+  min-height: 680px;
   transition: all .3s ease;
   background-color: var(--text);
 }
+
 .about-me {
   /* border: 2px solid black; */
   width: 45%;
@@ -47,20 +49,31 @@
 @media (max-width: 880px) {
     .about {
         display: block;
-        gap: 30px;
+        /* gap: 30px; */
         padding-left: 5rem;
+        width: auto;
+        
         
     }
     .about-me {
-        width: 80%;
+        width: 100%;
         font-size: clamp(2rem, 5vw, 3rem);
         text-align: left;
     }
     .details {
-        width: 80%;
+        
+        margin-top: 10%;
+        width: 90%;
         text-align: left;
     }
     .about .side {
         display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .about {
+        padding-left: 2rem;
+        font-size: smaller;
     }
 }

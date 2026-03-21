@@ -1,0 +1,82 @@
+/* project section */
+.project {
+    /* border: 2px solid black; */
+    padding-top: 1rem;
+    background-color: var(--bg);
+    height: 680px;
+    
+}
+
+.project .up h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.project .down {
+    display: flex;
+}
+
+.project .down .left {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.project .down .side {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    /* padding-bottom: px; */
+}
+
+.project-box {
+    margin-top: 2rem;
+    border: 2px solid var(--text);
+    width: 40%; /* 2 boxes per row */
+    padding: .8rem 1rem;
+    font-size: .8rem;
+    transition: all .3s ease;
+    cursor: pointer;
+
+    
+}
+
+.project-box:hover {
+    border: 2px solid transparent;
+    background-color: var(--text);
+    transform: scale(1.05);
+    color: var(--bg);
+}
+
+@media (max-width: 880px) {
+    .project .down .left {
+        display: block;
+    }
+
+    .project .up h1 {
+        font-size: 2rem;
+    }
+
+    .project .down .left .project-box {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .project .down .left {
+        margin-left: 2rem;
+    }
+
+    .project .down .side {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    
+}

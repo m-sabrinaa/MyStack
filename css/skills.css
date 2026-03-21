@@ -5,8 +5,9 @@
 .skill {
   /* border: 2px solid black; */
   color: var(--bg);
-  height: 680px;
+  min-height: 680px;
 }
+
 
 .skill h1 {
   text-align: center;
@@ -143,4 +144,51 @@
   width: 60%;
   height: 10px;
   border-radius: 10px;
+}
+
+.skill .side {
+  margin-top: 8rem;
+  margin-right: .5rem;
+}
+
+@media(max-width: 880px)
+{
+  .skill .container .side {
+        display: none;
+    }
+}
+
+@media(max-width: 750px)
+{
+  .skill .container {
+    display: block;
+  }
+
+  .skill h1{
+    font-size: 2.5rem;
+  }
+
+  .skill .left {
+    width: 80%;
+    margin: 0 2rem;
+    font-size: smaller;
+  }
+
+  .skill .left .up{
+    width: 100%;
+  }
+
+  .skill .left .down {
+    width: 100%;
+  }
+
+  .skill .right {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 80%;
+  }
+
+  .skill {
+    scale: 0.9;
+  }
 }
