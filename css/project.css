@@ -19,7 +19,7 @@
 }
 
 .project .down .left {
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     display: flex;
 }
@@ -48,13 +48,15 @@
 .project-box:hover {
     border: 2px solid transparent;
     background-color: var(--dark-text);
-    transform: scale(1.1);
+    transform: scale(1.05);
     color: var(--bg);
 }
+
 
 @media (max-width: 880px) {
     .project .down .left {
         display: block;
+        margin-left: 2rem;
     }
 
     .project .up h1 {
@@ -66,16 +68,8 @@
         font-size: 0.8rem;
     }
 
-    .project .down .left {
-        margin-left: 2rem;
-    }
-
     .project .down .side {
         display: none;
     }
-}
-
-@media (max-width: 600px) {
-    
     
 }

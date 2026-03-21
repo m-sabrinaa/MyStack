@@ -5,6 +5,7 @@
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-top: 0;
 }
 
 .footer p {
@@ -22,7 +23,7 @@
 .social-icons a {
     color: white;
     font-size: 1.4rem;
-    transition: 0.3s;
+    transition: all .3s ease;
 }
 
 .social-icons a:hover {
@@ -30,9 +31,9 @@
     transform: scale(1.2);
 }
 
-@media(max-width: 880px)
+/* @media(max-width: 880px)
 {
     .footer {
         margin-top: 3rem;
     }
-}
+} */
