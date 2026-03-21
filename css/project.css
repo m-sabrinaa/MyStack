@@ -2,9 +2,9 @@
 .project {
     /* border: 2px solid black; */
     padding-top: 1rem;
-    background-color: var(--bg);
-    min-height: 680px;
-    
+    background-color: var(--text);
+    min-height: 680px;   
+    color: var(--bg); 
 }
 
 .project .up h1{
@@ -36,20 +36,19 @@
 
 .project-box {
     margin-top: 2rem;
-    border: 2px solid var(--text);
+    border: 2px solid transparent;
+    background-color: var(--text);
     width: 40%; /* 2 boxes per row */
     padding: .8rem 1rem;
     font-size: .8rem;
     transition: all .3s ease;
     cursor: pointer;
-
-    
 }
 
 .project-box:hover {
     border: 2px solid transparent;
-    background-color: var(--text);
-    transform: scale(1.05);
+    background-color: var(--dark-text);
+    transform: scale(1.1);
     color: var(--bg);
 }
 

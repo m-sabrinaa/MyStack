@@ -29,6 +29,7 @@
 .skill .left {
   /* border: 2px solid black; */
   width: 40%;
+  /* box-shadow: x-offset y-offset blur spread color; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -45,6 +46,7 @@
 
 .skill .left .up:hover {
   transform: scale(1.05);
+  background-color: var(--dark-text);
 }
 
 .skill .left .down {
@@ -57,6 +59,7 @@
 
 .skill .left .down:hover {
   transform: scale(1.05);
+  background-color: var(--dark-text);
 }
 
 .skill .left .down-item {
@@ -112,35 +115,35 @@
 }
 
 .right .line .cprogress {
-  background-color: var(--text);
+  background-color: var(--dark-text);
   width: 85%;
   height: 10px;
   border-radius: 10px;
 }
 
 .right .line .javaprogress {
-  background-color: var(--text);
+  background-color: var(--dark-text);
   width: 50%;
   height: 10px;
   border-radius: 10px;
 }
 
 .right .line .pyprogress {
-  background-color: var(--text);
+  background-color: var(--dark-text);
   width: 40%;
   height: 10px;
   border-radius: 10px;
 }
 
 .right .line .htmlprogress {
-  background-color: var(--text);
+  background-color: var(--dark-text);
   width: 90%;
   height: 10px;
   border-radius: 10px;
 }
 
 .right .line .cssprogress {
-  background-color: var(--text);
+  background-color: var(--dark-text);
   width: 60%;
   height: 10px;
   border-radius: 10px;
@@ -154,7 +157,7 @@
 @media(max-width: 880px)
 {
   .skill .container .side {
-        display: none;
+        display: ntwo;
     }
 }
 
