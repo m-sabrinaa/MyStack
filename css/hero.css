@@ -25,3 +25,17 @@
 .name p{
     font-size: 1.2rem;
 }
+
+@media(max-width: 750px)
+{
+    .hero .name h1{
+        font-size: 2.4rem;
+    }
+    .name p{
+    font-size: 1rem;
+    }
+
+    .hero {
+        gap: 1.5rem;
+    }
+}

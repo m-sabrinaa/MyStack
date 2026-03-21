@@ -1,5 +1,5 @@
 .about {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   width: auto;
   justify-content: center;
@@ -59,6 +59,7 @@
         width: 100%;
         font-size: clamp(2rem, 5vw, 3rem);
         text-align: left;
+        margin-top: 2rem;
     }
     .details {
         
