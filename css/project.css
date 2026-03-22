@@ -66,6 +66,7 @@
     .project .down .left .project-box {
         width: 90%;
         font-size: 0.8rem;
+        margin-bottom: 2rem;
     }
 
     .project .down .side {

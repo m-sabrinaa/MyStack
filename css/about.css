@@ -51,9 +51,7 @@
         display: block;
         /* gap: 30px; */
         padding-left: 5rem;
-        width: auto;
-        
-        
+        width: auto;      
     }
     .about-me {
         width: 100%;
@@ -69,6 +67,10 @@
     }
     .about .side {
         display: none;
+    }
+
+    .about button {
+      margin-top: 2rem;
     }
 }
 
